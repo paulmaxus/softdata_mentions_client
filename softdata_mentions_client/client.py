@@ -8,7 +8,7 @@ import lmdb
 import argparse
 import time
 import datetime
-import S3
+from softdata_mentions_client import S3
 import concurrent.futures
 import requests
 import pymongo
